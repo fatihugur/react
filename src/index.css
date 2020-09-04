@@ -16,6 +16,11 @@ body{
   background-color: rgb(133, 119, 119);
   color:#fff;
 }
+.main-site{
+  padding:40px;
+
+}
+
 h1{
   text-align:center;
 }
@@ -27,4 +32,18 @@ h1{
   border-style: outset;
   margin:30px;
   background-color: #deb887;
+}
+.header {
+	min-height: 100vh;
+	background: url(https://www.visitlimburg.be/sites/default/files/public/styles/header_large/public/header-images/preview_kwi_1723_0.jpg?h=d9d39bcf&itok=VOIDW6_1)center center;
+	background-size: cover;
+	font-family: 'Opensans', sans-serif;
+}
+
+.footer {
+	display:grid;
+	grid-template-columns: 1fr;
+	min-height: 30vh;
+	margin-top:0;
+	padding-top: 3vh;
 }
